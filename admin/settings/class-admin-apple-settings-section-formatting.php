@@ -226,7 +226,7 @@ class Admin_Apple_Settings_Section_Formatting extends Admin_Apple_Settings_Secti
 			),
 			'pre' => array(
 				'label'       => __( 'Pre', 'apple-news' ),
-				'description' => 'Text in &lt;pre> tags.',
+				'description' => 'Text in &lt;pre&gt; tags.',
 				'settings'    => array( 'pre_font', 'pre_size', 'pre_color', 'pre_line_height' ),
 			),
 			'gallery' => array(
