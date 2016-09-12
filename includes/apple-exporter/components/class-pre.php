@@ -38,7 +38,7 @@ class Pre extends Component {
       'role' => 'container',
       'components' => array( array(
         'role'   => 'body',
-        'text'   => $this->markdown->parse( $text ),
+        'text'   => $text,
         'format' => 'markdown',
         'layout' => 'pre-layout',
         'textStyle' => 'default-pre',
