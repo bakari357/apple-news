@@ -4,7 +4,7 @@ namespace Apple_Exporter\Components;
 /**
  * An HTML's blockquote representation.
  *
- * @since 0.2.0
+ * @since 1.1.8
  */
 class Pre extends Component {
 
