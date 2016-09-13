@@ -7,7 +7,7 @@ use Apple_Exporter\Components\Pre as Pre;
 class Pre_Test extends Component_TestCase {
 
   public function testBuildingRemovesTags() {
-    $component = new Quote( '<pre><code data-lang="javascript">var x = {
+    $component = new Pre( '<pre><code data-lang="javascript">var x = {
   "foo": 1;
 }<code></pre>',
       null, $this->settings, $this->styles, $this->layouts );
