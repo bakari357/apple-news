@@ -16,7 +16,7 @@ class Pre_Test extends Component_TestCase {
     $result = $result_wrapper['components'][0];
     $this->assertEquals( 'container', $result_wrapper['role'] );
     $this->assertEquals( 'body', $result['role'] );
-    $this->assertEquals( "var x = {\r\n \"foo\": 1;\r\n}", $result['text'] );
+    $this->assertEquals( "<code data-lang=\"javascript\">var x = {var x = {\r\n \"foo\": 1;\r\n}<code>", $result['text'] );
     $this->assertEquals( 'markdown', $result['format'] );
     $this->assertEquals( 'default-pre', $result['textStyle'] );
     $this->assertEquals( 'pre-layout', $result['layout'] );
