@@ -71,10 +71,12 @@ class Pre extends Component {
   private function set_style() {
     $this->json['textStyle'] = 'default-pre';
     $this->register_style( 'default-pre', array(
-      'fontName'      => $this->get_setting( 'pre_font' ),
-      'fontSize'      => intval( $this->get_setting( 'pre_size' ) ),
-      'textColor'     => $this->get_setting( 'pre_color' ),
-      'lineHeight'    => intval( $this->get_setting( 'pre_line_height' ) ),
+      'fontName'								=> $this->get_setting( 'pre_font' ),
+      'fontSize'								=> intval( $this->get_setting( 'pre_size' ) ),
+      'textColor'								=> $this->get_setting( 'pre_color' ),
+      'lineHeight'    					=> intval( $this->get_setting( 'pre_line_height' ) ),
+      'paragraphSpacingBefore'	=> 0,
+      'paragraphSpacingAfter'		=> 0,
     ) );
   }
 
