@@ -78,7 +78,7 @@ class Admin_Apple_Themes extends Apple_News {
 
 				break;
 			case 'float':
-				$field = '<input class="input-float" placeholder="' . esc_attr( $option['default'] ) . '" type="text" step="any" id="%s" name="%s" value="%s">';
+				$field = '<input class="input-float" placeholder="' . esc_attr( $option['default'] ) . '" type="number" step="0.01" id="%s" name="%s" value="%s">';
 
 				break;
 			case 'font':
